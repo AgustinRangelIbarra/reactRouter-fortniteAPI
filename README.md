@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # REACT ROUTER TEST CON API DE FORTNITE
-=======
+
 
 # Getting Started with Create React App
 
