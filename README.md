@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # REACT ROUTER TEST CON API DE FORTNITE
+=======
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
