@@ -18,11 +18,11 @@ function Navigation() {
         </Link>
 
         <Link className="nav-link-item" to="/Dashboard" >
-          <li>Dashboard</li>
+          <li>Personal</li>
         </Link>
 
         <Link className="nav-link-item" to="/Reports" >
-          <li>Reports</li>
+          <li>Analytics</li>
         </Link>
 
         <Link className="nav-link-item" to="/Settings">

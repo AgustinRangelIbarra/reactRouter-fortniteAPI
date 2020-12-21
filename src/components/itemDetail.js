@@ -22,7 +22,7 @@ const useFetch = (url) => {
 
 function ItemDetail({ match }) {
 	const {data, loading} = useFetch(`https://fortnite-api.theapinetwork.com/item/get?id=${match.params.id}`);
-
+	console.log({match})
 	if (loading) return <h3>...loading</h3>
 
 	return (
