@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom'
 
 import '../App.css';
 
-function Navigation() {
+function Navigation (props) {
 
   return (
     <nav className="nav">
+      
       <Link className="nav-link-item" to="/">
         <h3>Logo</h3>
       </Link>
@@ -17,8 +18,12 @@ function Navigation() {
           <li>Shop</li>
         </Link>
 
+        <Link className="nav-link-item" to="/Tweets">
+          <li>Twitter</li>
+        </Link>
+        
         <Link className="nav-link-item" to="/Dashboard" >
-          <li>Personal</li>
+          <li>Dashboard</li>
         </Link>
 
         <Link className="nav-link-item" to="/Reports" >
@@ -26,7 +31,7 @@ function Navigation() {
         </Link>
 
         <Link className="nav-link-item" to="/Settings">
-          <li>Settings</li>
+          {props.toggle ? <li>Settings</li> : ""}
         </Link>
       </ul>
     </nav>

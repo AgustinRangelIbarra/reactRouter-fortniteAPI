@@ -34,3 +34,20 @@ nav{
   color: #eeeeee;
   text-decoration: none;
 }
+
+.home{
+  min-height: 100vh;
+  background: rgb(34, 54, 80);
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.active{
+  opacity: 0;
+  transition: .3s ease;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
