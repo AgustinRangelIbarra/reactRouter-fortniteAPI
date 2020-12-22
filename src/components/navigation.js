@@ -10,7 +10,7 @@ function Navigation (props) {
     <nav className="nav">
       
       <Link className="nav-link-item" to="/">
-        <h3>Logo</h3>
+        <h3>Logo Rangel</h3>
       </Link>
 
       <ul className="nav-links">

@@ -15,12 +15,12 @@ const Home = (props) => {
 	return(
 		<div>
 			<h1>Home Page</h1>
+			<hr/>
 			<h2>Video grid: {counter}</h2>
 			<button onClick={increment}>Counter</button>
 			<div>
 				<p>The "Counter" button is updating in home.js, using useState</p>
 			</div>
-			<hr/>
 			<button onClick={props.settoggle}>Toggle Settings</button>
 			<div>
 				<p>The "Toggle Settings" button is updating Settings link on Navigation.js from a button inside Home.js</p>

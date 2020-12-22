@@ -36,6 +36,7 @@ function App() {
 
           <Navigation toggle={toggle}/>
           <Home settoggle={toggler}/>
+          <hr/>
 
           <Switch/>
           {/* <Route path="/home" exact component={Home}/> */}
