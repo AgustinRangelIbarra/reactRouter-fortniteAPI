@@ -1,6 +1,9 @@
-# REACT ROUTER TEST CON API DE FORTNITE
+# Prueba de React Router.
+## Manejo de `BrowserRouter`, `Switch`, `Link` y `Route` 
+## Uso de `useState`, `useContext`, `props`, `state`.
+### Uso de una API de Fotrnite para `fetch` y manejo de `promises`.
 
-
+###
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
